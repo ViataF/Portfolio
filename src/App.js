@@ -1,26 +1,40 @@
-import React, { Fragment, useEffect } from "react";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar/Navbar";
-import Sidebar from "./components/layout/Sidebar/Sidebar";
-import Intro from "./components/layout/pages/intro";
+import Intro from "./components/layout/pages/Intro";
+import Portfolio from "./components/layout/pages/Portfolio";
+import About from "./components/layout/pages/About";
+import NotFound from "./components/layout/pages/NotFound";
+import Testimonials from "./components/layout/pages/Testimonials";
+import Contact from "./components/layout/pages/Contact";
 
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 import "./App.css";
 
 const App = () => {
+  // const [loading, setLoading] = useState(false);
+
   useEffect(() => {
     // Init Materialize JS
     M.AutoInit();
   });
   return (
-    <Fragment>
-      <div className="container-fluid">
-        {" "}
+    <Router>
+      <div className="App">
         <Navbar />
-        <Sidebar />
-        <Intro />
+        <div className="container">
+          <Switch>
+            <Route exact path="/" component={Intro} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/testimonial" component={Testimonials} />
+            <Route exact path="/contact" component={Contact} />
+            <Route component={NotFound} />
+          </Switch>
+        </div>
       </div>
-    </Fragment>
+    </Router>
   );
 };
 
