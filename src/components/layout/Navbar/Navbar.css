@@ -1,24 +1,19 @@
+footer.navbar-footer {
+  padding-top: 100%;
+  padding-bottom: 0;
+}
+
+a.waves-effect.waves-light.btn-large {
+  padding: 0px 30px;
+}
+ul#mobile-demo.sidenav {
+  width: 240px;
+}
+
 .nav-wrapper {
-  padding-left: 2px;
-  border-bottom: 2px blue solid;
-  background-color: darkblue;
-  z-index: 150;
-  margin-bottom: -50px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  background-color: #6f37a6;
+  border-bottom: 4px #26a69a solid;
 }
-
-nav {
-  position: fixed;
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
+a.brand-loggo {
+  background-color: black;
 }
