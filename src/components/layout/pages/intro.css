@@ -1,0 +1,32 @@
+span.lfm__typing_effect {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  color: #a4a61e;
+  font-size: 5rem;
+  position: static;
+  box-sizing: content-box;
+}
+
+.intro {
+  text-align: center;
+  margin: 20px;
+  color: white;
+  background-color: black;
+  height: 150vh;
+}
+
+p {
+  color: #a4a61e;
+}
+
+img.project_img {
+  animation: flip; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+a.btn.btn-dark.btn-sm.my-1.animate__lightSpeedInRight {
+  animation: lightSpeedInRight;
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 2s;
+}
