@@ -101,11 +101,53 @@ h3.biography {
   }
 }
 
+h3.hobbies-heading {
+  color: white;
+}
+
 ol.hobbies {
   color: #a4a61e;
-  background-color: white;
 }
 
 ol.hobbies li {
   font-size: 18px;
 }
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.container-skillbar {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 20px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  color: white; /* White text color */
+  height: 20px;
+  border-radius: 20px;
+  animation: swing;
+  animation-duration: 2s;
+  animation-delay: 5s;
+}
+
+.html {
+  width: 80%;
+  background-color: #4caf50;
+} /* Green */
+.css {
+  width: 75%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 55%;
+  background-color: #f44336;
+} /* Red */
+.python {
+  width: 65%;
+  background-color: #808080;
+} /* Dark Grey */
