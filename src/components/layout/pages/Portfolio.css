@@ -16,7 +16,6 @@
   margin-top: 30px;
   width: 100%;
   height: 100%;
-  background-color: black;
 }
 
 #portfolio.container {
@@ -31,9 +30,4 @@ h2.portfolio-heading {
   color: #a4a61e;
   animation: bounceIn;
   animation-duration: 2s; /* don't forget to set a duration! */
-  background-color: darkgray;
-  margin-bottom: 40px;
-  padding-bottom: 50px;
-  -webkit-text-stroke: 2px white;
-  border: solid white;
 }
