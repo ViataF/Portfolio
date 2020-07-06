@@ -1,17 +1,17 @@
-import React, { Fragment } from "react";
+import React from "react";
 import "./About.css";
 const About = () => {
   return (
     <div className="container">
       <h2 className="about">About me</h2>
-      <div className="section biography">
+      <section>
         <h3 className="biography">Biography</h3>
         <p>
           I am a hardworking and highly dedicated individual. I embrace new
           challenges and love to explore new opportunities. My purpose is to
           broaden my knowledge and develop new skills.
         </p>
-      </div>
+      </section>
       <div className="timeline">
         <div className="timeline-event">
           <div className="card timeline-content">
@@ -102,15 +102,6 @@ const About = () => {
           <li>Swimming</li>
         </ol>
       </section>
-      <section>
-        <h3 className="passion">Where my tech passion came from:</h3>
-        <p>
-          I was exposed to coding at high school via a business called Code 4
-          Cape Town. I have always had a knack for computers and people always
-          asked me to assist them with their challenges concerning computers and
-          cell phones.
-        </p>
-      </section>
       <section className="skillbar">
         <h3 className="hobbies-heading">Skills</h3>
         <p>HTML</p>
@@ -132,6 +123,15 @@ const About = () => {
         <div class="container-skillbar">
           <div class="skills python">65%</div>
         </div>
+      </section>
+      <section>
+        <h3 className="white-text">Tech Passion Origin</h3>
+        <p>
+          I was exposed to coding at high school via a business called Code 4
+          Cape Town. I have always had a knack for computers and people always
+          asked me to assist them with their challenges concerning computers and
+          cell phones.
+        </p>
       </section>
     </div>
   );

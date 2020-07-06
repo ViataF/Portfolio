@@ -1,8 +1,10 @@
 /* Set a background color */
 h2.about {
-  background-color: #474e5d;
+  color: #a4a61e;
   text-align: center;
   font-family: Helvetica, sans-serif;
+  animation: bounceInRight;
+  animation-duration: 2s;
 }
 
 h3.biography {
