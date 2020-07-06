@@ -10,16 +10,16 @@ const Navbar = () => {
           <a
             href="/"
             className="brand-logo"
-            style={{ fontSize: "100%", color: "black" }}
+            style={{ fontSize: "100%", color: "white" }}
           >
             <i className="medium material-icons">developer_mode</i>
-            Viata Fredericks
+            Portfolio - Viata Fredericks
           </a>
           <a href="/" data-target="mobile-demo" className="sidenav-trigger">
             <i className="material-icons">menu</i>
           </a>
           <ul className="right hide-on-med-and-down">
-            <li>
+            <li className="active">
               <Link to="/">Intro</Link>
             </li>
             <li>
