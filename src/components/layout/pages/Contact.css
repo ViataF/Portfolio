@@ -1,0 +1,21 @@
+h2.contact {
+  text-align: center;
+  color: #a4a61e;
+  animation: zoomIn;
+  animation-duration: 2s;
+}
+form {
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 3px;
+  border: solid white;
+}
+
+.waves-effect.waves-light.btn-large {
+  display: flex;
+}
+
+.card.black {
+  border: solid white;
+}
