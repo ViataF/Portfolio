@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import ReactTypingEffect from "react-typing-effect";
 import "./intro.css";
+import me from "./images/me1.jpg";
 class intro extends Component {
   state = {
     text: " Hello World",
     intro: "I'm Viata Fredericks",
-    avatar_url:
-      "https://www.nj.com/resizer/h8MrN0-Nw5dB5FOmMVGMmfVKFJo=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/SJGKVE5UNVESVCW7BBOHKQCZVE.jpg",
+    avatar_url: me,
     portfolio: "See my portfolio",
   };
 
@@ -21,8 +21,12 @@ class intro extends Component {
           <img
             src={avatar_url}
             alt="Me"
-            style={{ width: "250px" }}
             className="project_img"
+            style={{
+              width: "240px",
+              borderRadius: "2px",
+              boxShadow: "2px white",
+            }}
           />
           <h3>{intro}</h3>
           <p>Junior Software developer</p>
