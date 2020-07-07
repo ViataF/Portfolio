@@ -12,20 +12,29 @@ class intro extends Component {
   };
 
   render() {
-    const { text, avatar_url, intro, portfolio } = this.state;
+    const { avatar_url, intro, portfolio } = this.state;
     return (
       <div className="intro">
         {" "}
-        <ReactTypingEffect text={text} />
+        <ReactTypingEffect
+          text={[
+            "hello",
+            "Molo",
+            "Dumela",
+            "Sanibonani",
+            "Hallo",
+            "Thobela",
+            "Avuwani",
+          ]}
+        />
         <div className="container">
           <img
             src={avatar_url}
             alt="Me"
             className="project_img"
             style={{
-              width: "240px",
-              borderRadius: "2px",
-              boxShadow: "2px white",
+              width: "350px",
+              borderRadius: "50%",
             }}
           />
           <h3>{intro}</h3>
