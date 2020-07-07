@@ -100,23 +100,23 @@ const About = () => {
       <section className="skillbar  ">
         <h3 className="skills-heading center">Skills</h3>
         <p className="language">HTML</p>
-        <div class="container-skillbar">
-          <div class="skills html">80%</div>
+        <div className="container-skillbar">
+          <div className="skills html">80%</div>
         </div>
 
         <p className="language">CSS</p>
-        <div class="container-skillbar">
-          <div class="skills css">75%</div>
+        <div className="container-skillbar">
+          <div className="skills css">75%</div>
         </div>
 
         <p className="language">JavaScript</p>
-        <div class="container-skillbar">
-          <div class="skills js">55%</div>
+        <div className="container-skillbar">
+          <div className="skills js">55%</div>
         </div>
 
         <p className="language">Python</p>
-        <div class="container-skillbar">
-          <div class="skills python">65%</div>
+        <div className="container-skillbar">
+          <div className="skills python">65%</div>
         </div>
       </section>
       <section style={{ margin: "50px", textAlign: "center" }}>

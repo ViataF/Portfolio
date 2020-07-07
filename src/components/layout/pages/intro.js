@@ -33,7 +33,7 @@ class intro extends Component {
             alt="Me"
             className="project_img"
             style={{
-              width: "350px",
+              width: "300px",
               borderRadius: "50%",
             }}
           />
@@ -41,7 +41,7 @@ class intro extends Component {
           <p>Junior Software developer</p>
           <div>
             <Link
-              to="/portfolio"
+              to="/myportfolio"
               className="btn btn-dark btn-sm my-1 animate__lightSpeedInRight"
             >
               {portfolio}

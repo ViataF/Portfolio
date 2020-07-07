@@ -46,11 +46,11 @@ class Contact extends React.Component {
           )}
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
-        <div class="col s12">
-          <div class="card black">
-            <div class="card-content white-text">
-              <span class="card-title">Contact details</span>
-              <div class="card-action">
+        <div className="col s12">
+          <div className="card black">
+            <div className="card-content white-text">
+              <span className="card-title">Contact details</span>
+              <div className="card-action">
                 <a
                   href="https://github.com/ViataF"
                   className="waves-effect waves-light btn-large  grey darken-3"

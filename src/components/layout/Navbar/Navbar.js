@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav>
         <div className="nav-wrapper ">
           <a
-            href="/portfolio"
+            href="/Portfolio"
             className="brand-logo"
             style={{ fontSize: "100%", color: "white" }}
           >
@@ -16,7 +16,7 @@ const Navbar = () => {
             Portfolio - VF
           </a>
           <a
-            href="/portfolio"
+            href="/Portfolio"
             data-target="mobile-demo"
             className="sidenav-trigger"
           >
@@ -24,7 +24,7 @@ const Navbar = () => {
           </a>
           <ul className="right hide-on-med-and-down ">
             <li>
-              <Link to="/portfolio">Intro</Link>
+              <Link to="/Portfolio">Intro</Link>
             </li>
             <li>
               <Link to="/about">My Profile</Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
       </nav>
       <ul className="sidenav" id="mobile-demo">
         <li>
-          <Link to="/portfolio">Intro</Link>
+          <Link to="/Portfolio">Intro</Link>
         </li>
         <li>
           <Link to="/about">My Profile</Link>

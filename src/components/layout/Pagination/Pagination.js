@@ -3,30 +3,30 @@ import React from "react";
 const Pagination = () => {
   return (
     <div>
-      <ul class="pagination center">
-        <li class="disabled">
+      <ul className="pagination center">
+        <li className="disabled">
           <a href="#!">
-            <i class="material-icons">chevron_left</i>
+            <i className="material-icons">chevron_left</i>
           </a>
         </li>
-        <li class="active">
+        <li className="active">
           <a href="/portfolio">1</a>
         </li>
-        <li class="waves-effect">
+        <li className="waves-effect">
           <a href="/about">2</a>
         </li>
-        <li class="waves-effect">
+        <li className="waves-effect">
           <a href="/myportfolio">3</a>
         </li>
-        <li class="waves-effect">
+        <li className="waves-effect">
           <a href="/contact">4</a>
         </li>
-        <li class="waves-effect">
+        <li className="waves-effect">
           <a href="/testimonial">5</a>
         </li>
-        <li class="disabled">
+        <li className="disabled">
           <a href="#!">
-            <i class="material-icons">chevron_right</i>
+            <i className="material-icons">chevron_right</i>
           </a>
         </li>
       </ul>
