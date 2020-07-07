@@ -2,16 +2,14 @@ import React from "react";
 import "./About.css";
 const About = () => {
   return (
-    <div className="container">
-      <h2 className="about">About me</h2>
-      <section>
-        <h3 className="biography">Biography</h3>
-        <p>
-          I am a hardworking and highly dedicated individual. I embrace new
-          challenges and love to explore new opportunities. My purpose is to
-          broaden my knowledge and develop new skills.
-        </p>
-      </section>
+    <div className=" about">
+      <h2 className="about">My Profile</h2>
+      <p className="profile">
+        I am a hardworking and highly dedicated individual. I embrace new
+        challenges and love to explore new opportunities. My purpose is to
+        broaden my knowledge and develop new skills.
+      </p>
+
       <div className="timeline">
         <div className="timeline-event">
           <div className="card timeline-content">
@@ -19,13 +17,17 @@ const About = () => {
               <span className="card-title activator grey-text text-darken-4">
                 Education<i className="material-icons right">more_vert</i>
               </span>
-              <p>Matric (year and school): Claremont High School (2019)</p>
+              <p className="content">
+                Matric (year and school): Claremont High School (2019)
+              </p>
             </div>
             <div className="card-reveal">
               <span className="card-title grey-text text-darken-4">
                 Education<i className="material-icons right">close</i>
               </span>
-              <p>Matric - Claremont High School : 2015-2019</p>
+              <p className="content">
+                Matric - Claremont High School : 2015-2019
+              </p>
             </div>
           </div>
           <div className="timeline-badge red white-text">
@@ -39,7 +41,10 @@ const About = () => {
                 Work experience
                 <i className="material-icons right">more_vert</i>
               </span>
-              <p> Sevens Rugby Period: 13-15 November 2019 Role: Usher</p>
+              <p className="content">
+                {" "}
+                Sevens Rugby Period: 13-15 November 2019 Role: Usher
+              </p>
             </div>
             <div className="card-reveal">
               <span className="card-title grey-text text-darken-4">
@@ -64,7 +69,7 @@ const About = () => {
                 Voluntary work
                 <i className="material-icons right">more_vert</i>
               </span>
-              <p>
+              <p className="content">
                 Company: PlumPets Period: 2018, Company: Parkhaven Senior
                 Citizen (Wynberg) Period: 2018
               </p>
@@ -92,41 +97,31 @@ const About = () => {
           </div>
         </div>
       </div>
-      <section>
-        <h3 className="hobbies-heading">Hobbies</h3>
-        <ol className="hobbies">
-          <li>Reading ebooks</li>
-          <li>Walking</li>
-          <li>Playing the Viola</li>
-          <li>Baking</li>
-          <li>Swimming</li>
-        </ol>
-      </section>
-      <section className="skillbar">
-        <h3 className="hobbies-heading">Skills</h3>
-        <p>HTML</p>
+      <section className="skillbar  ">
+        <h3 className="skills-heading center">Skills</h3>
+        <p className="language">HTML</p>
         <div class="container-skillbar">
           <div class="skills html">80%</div>
         </div>
 
-        <p>CSS</p>
+        <p className="language">CSS</p>
         <div class="container-skillbar">
           <div class="skills css">75%</div>
         </div>
 
-        <p>JavaScript</p>
+        <p className="language">JavaScript</p>
         <div class="container-skillbar">
           <div class="skills js">55%</div>
         </div>
 
-        <p>Python</p>
+        <p className="language">Python</p>
         <div class="container-skillbar">
           <div class="skills python">65%</div>
         </div>
       </section>
-      <section>
-        <h3 className="white-text">Tech Passion Origin</h3>
-        <p>
+      <section style={{ margin: "50px", textAlign: "center" }}>
+        <h3 className="passion">Passion Origin</h3>
+        <p className="white-text">
           I was exposed to coding at high school via a business called Code 4
           Cape Town. I have always had a knack for computers and people always
           asked me to assist them with their challenges concerning computers and

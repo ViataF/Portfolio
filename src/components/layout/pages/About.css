@@ -1,18 +1,25 @@
 /* Set a background color */
-h2.about {
-  color: #a4a61e;
-  text-align: center;
-  font-family: Helvetica, sans-serif;
-  animation: bounceInRight;
-  animation-duration: 2s;
+.about {
+  background-image: url(https://cdn.pixabay.com/photo/2020/07/05/16/09/lighthouse-5373552_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 10px;
 }
-
-h3.biography {
-  color: white;
+h2.about {
+  color: black;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+  font-family: cursive;
+  animation: swing;
+  animation-duration: 2s;
 }
 
 .timeline {
   position: relative;
+  margin: 0 50px;
 }
 
 .timeline .timeline-event {
@@ -102,25 +109,17 @@ h3.biography {
     left: 0;
   }
 }
-
-h3.hobbies-heading {
-  color: white;
-}
-
-ol.hobbies {
-  color: #a4a61e;
-}
-
-ol.hobbies li {
-  font-size: 18px;
+span.card-title.activator {
+  font-weight: bolder;
 }
 
 /* Make sure that padding behaves as expected */
-* {
-  box-sizing: border-box;
-}
 
 /* Container for skill bars */
+section.skillbar {
+  margin: 50px;
+}
+
 .container-skillbar {
   width: 100%; /* Full width */
   background-color: #ddd; /* Grey background */
@@ -153,3 +152,18 @@ ol.hobbies li {
   width: 65%;
   background-color: #808080;
 } /* Dark Grey */
+
+p.profile {
+  margin: 30px;
+  text-align: center;
+  color: black;
+}
+p.language {
+  font-weight: bolder;
+  color: white;
+  -webkit-text-stroke: 0.8px black;
+}
+
+p.content {
+  font-weight: bolder;
+}
