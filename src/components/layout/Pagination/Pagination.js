@@ -10,13 +10,13 @@ const Pagination = () => {
           </a>
         </li>
         <li class="active">
-          <a href="/">1</a>
+          <a href="/portfolio">1</a>
         </li>
         <li class="waves-effect">
           <a href="/about">2</a>
         </li>
         <li class="waves-effect">
-          <a href="/portfolio">3</a>
+          <a href="/myportfolio">3</a>
         </li>
         <li class="waves-effect">
           <a href="/contact">4</a>
