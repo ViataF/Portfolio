@@ -12,17 +12,33 @@ class Contact extends React.Component {
   render() {
     const { status } = this.state;
     return (
-      <div className="contact">
+      <div className="container-contact">
         <h2 className="contact">Contact me</h2>
         <form
           onSubmit={this.submitForm}
           action="https://formspree.io/mgennzln"
           method="POST"
         >
-          <label>Email:</label>
-          <input type="email" name="email" />
-          <label>Message:</label>
-          <input type="text" name="message" />
+          <label
+            style={{ color: "black", textAlign: "start", fontWeight: "bolder" }}
+          >
+            Email:
+          </label>
+          <input
+            type="email"
+            name="email"
+            style={{ borderBottom: "white solid" }}
+          />
+          <label
+            style={{ color: "black", textAlign: "left", fontWeight: "bolder" }}
+          >
+            Message:
+          </label>
+          <input
+            type="text"
+            name="message"
+            style={{ borderBottom: "white solid" }}
+          />
           {status === "SUCCESS" ? (
             <p>Thanks!, Please reload to submit another response</p>
           ) : (

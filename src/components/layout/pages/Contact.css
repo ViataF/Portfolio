@@ -1,8 +1,20 @@
+.container-contact {
+  margin-top: 0px;
+  padding-top: 10px;
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://storage.needpix.com/rsynced_images/background-4232859_1280.png);
+}
+
 h2.contact {
   text-align: center;
-  color: #a4a61e;
   animation: zoomIn;
   animation-duration: 2s;
+  margin-top: 0em;
+  font-family: cursive;
 }
 form {
   color: black;
