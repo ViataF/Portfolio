@@ -20,10 +20,7 @@ span.lfm__typing_effect {
 }
 @font-face {
   font-family: myFirstFont;
-  src: url(images/Malvie.otf);
-}
-
-h4.center {
+  src: url(font/Malvie.otf);
 }
 
 p {
