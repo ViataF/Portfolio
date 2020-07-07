@@ -2,13 +2,16 @@ import React from "react";
 import "./Testimonial.css";
 
 const Testimonials = () => {
+  const Style = { fontWeight: "bolder" };
   return (
-    <div className="testimonials">
+    <div className="container-testimonials">
       <h2 className="testimonial-heading">Testimonials</h2>
-      <div class="col s12 12m">
-        <div class="card orange">
-          <div class="card-content black-text">
-            <span class="card-title">Mischa(collegue)</span>
+      <div className="col s12 12m">
+        <div className="card orange">
+          <div className="card-content black-text">
+            <span className="card-title" style={Style}>
+              Mischa (collegue)
+            </span>
             <p className="white-text">
               Viata is a driven, passionate and ambitious individual. She is
               always putting her best foot forward and let's no obstacles stand
@@ -20,10 +23,12 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div class="col s12">
-        <div class="card green">
-          <div class="card-content black-text">
-            <span class="card-title">Doreen (collegue)</span>
+      <div className="col s12">
+        <div className="card green">
+          <div className="card-content black-text">
+            <span className="card-title" style={Style}>
+              Doreen (collegue)
+            </span>
             <p className="white-text">
               Viata Fredericks is a very dedicated individual who has shown
               great work , pay attention to details during her tasks and
@@ -33,10 +38,12 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div class="col s12 m6">
-        <div class="card blue">
-          <div class="card-content black-text">
-            <span class="card-title">Ntombekazi Sibetyu (collegue)</span>
+      <div className="col s12 m6">
+        <div className="card blue">
+          <div className="card-content black-text">
+            <span className="card-title" style={Style}>
+              Ntombekazi Sibetyu (collegue)
+            </span>
             <p className="white-text">
               Viata is passionate and always willing to learn new skills.She is
               a hard working individual and very dedicated to her work, she puts
@@ -47,14 +54,16 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div class="col s12 m6">
-        <div class="card red">
-          <div class="card-content black-text">
-            <span class="card-title">Card Title</span>
+      <div className="col s12 m6">
+        <div className="card red">
+          <div className="card-content black-text">
+            <span className="card-title" style={Style}>
+              Tyron Keet (collegue)
+            </span>
             <p className="white-text">
-              I am a very simple card. I am good at containing small bits of
-              information. I am convenient because I require little markup to
-              use effectively.
+              Viata is an overall, a brilliant developer with great potential.
+              She's a born leader and communication well her team. Viata will be
+              an asset to her workplace.
             </p>
           </div>
         </div>

@@ -1,3 +1,17 @@
 h2.testimonial-heading {
-  color: #a4a61e;
+  color: white;
+  margin-top: 0;
+  padding-top: 20px;
+  text-align: center;
+  font-family: cursive;
+  animation: flip;
+  animation-duration: 2s;
+}
+
+.container-testimonials {
+  animation: fadeIn;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  background-color: black;
+  padding: 0 50px 20px;
 }
