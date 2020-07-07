@@ -8,50 +8,54 @@ const Navbar = () => {
       <nav>
         <div className="nav-wrapper ">
           <a
-            href="/"
+            href="/portfolio"
             className="brand-logo"
             style={{ fontSize: "100%", color: "white" }}
           >
             <i className="medium material-icons">developer_mode</i>
-            Portfolio - Viata Fredericks
+            Portfolio - VF
           </a>
-          <a href="/" data-target="mobile-demo" className="sidenav-trigger">
+          <a
+            href="/portfolio"
+            data-target="mobile-demo"
+            className="sidenav-trigger"
+          >
             <i className="material-icons">menu</i>
           </a>
-          <ul className="right hide-on-med-and-down">
-            <li className="active">
-              <Link to="/">Intro</Link>
+          <ul className="right hide-on-med-and-down ">
+            <li>
+              <Link to="/portfolio">Intro</Link>
             </li>
             <li>
-              <Link to="/about">About Me</Link>
+              <Link to="/about">My Profile</Link>
             </li>
             <li>
-              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/myportfolio">Portfolio</Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/testimonial">Testimonial</Link>
+              <Link to="/testimonial">Testimonials</Link>
             </li>
           </ul>
         </div>
       </nav>
       <ul className="sidenav" id="mobile-demo">
         <li>
-          <Link to="/">Intro</Link>
+          <Link to="/portfolio">Intro</Link>
         </li>
         <li>
-          <Link to="/about">About Me</Link>
+          <Link to="/about">My Profile</Link>
         </li>
         <li>
-          <Link to="/portfolio/">Portfolio</Link>
+          <Link to="/myportfolio">Portfolio</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link to="/testimonial">Testimonial</Link>
+          <Link to="/testimonial">Testimonials</Link>
         </li>
         <footer className="navbar-footer">
           <a
