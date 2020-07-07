@@ -26,18 +26,15 @@ const App = () => {
     <Router>
       <div className="App">
         <Navbar />
-
-        <div className="container">
-          <Switch>
-            <Route exact path="/" component={Intro} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/testimonial" component={Testimonials} />
-            <Route exact path="/contact" component={Contact} />
-            <Route component={NotFound} />
-          </Switch>
-          <Pagination />
-        </div>
+        <Switch>
+          <Route exact path="/portfolio" component={Intro} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/myportfolio" component={Portfolio} />
+          <Route exact path="/testimonial" component={Testimonials} />
+          <Route exact path="/contact" component={Contact} />
+          <Route component={NotFound} />
+        </Switch>
+        <Pagination />
       </div>
     </Router>
   );
