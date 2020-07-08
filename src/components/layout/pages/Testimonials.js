@@ -69,7 +69,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="col s12 m6">
-        <div className="card red">
+        <div className="card purple">
           <div className="card-content black-text">
             <span className="card-title" style={Style}>
               Godwin Dzvapatsva (Head of Curriculum and Learning)
