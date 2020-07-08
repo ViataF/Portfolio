@@ -29,3 +29,7 @@ h2.portfolio-heading {
   animation: bounceIn;
   animation-duration: 2s; /* don't forget to set a duration! */
 }
+
+#portfolio.container {
+  width: 300px;
+}
