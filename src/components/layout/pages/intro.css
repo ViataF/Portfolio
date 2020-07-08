@@ -33,7 +33,6 @@ a.btn.btn-dark.btn-sm.my-1.animate__lightSpeedInRight {
 h3 {
   animation: swing;
   animation-duration: 2s; /* don't forget to set a duration! */
-  animation-delay: 2s;
 }
 
 p.sub-heading {
