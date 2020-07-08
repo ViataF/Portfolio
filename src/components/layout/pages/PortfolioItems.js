@@ -12,10 +12,7 @@ const PortfolioItems = ({
             <img className="activator" src={project_img} alt="project_img" />
           </div>
           <div className="card-content">
-            <span className="card-title activator grey-text text-darken-4">
-              {project_name}
-              <i className="material-icons right">more_vert</i>
-            </span>
+            <span className="card-title activator ">{project_name}</span>
             <p>
               <a href={project_url} alt="project link">
                 Link to project
@@ -23,7 +20,7 @@ const PortfolioItems = ({
             </p>
           </div>
           <div className="card-reveal">
-            <span className="card-title grey-text text-darken-4">
+            <span className="card-title ">
               {project_name}
               <i className="material-icons right">close</i>
             </span>
