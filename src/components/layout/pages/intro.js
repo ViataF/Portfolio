@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import ReactTypingEffect from "react-typing-effect";
 import "./intro.css";
 import me from "./images/me1.jpg";
@@ -8,11 +7,10 @@ class intro extends Component {
     text: " Hello World",
     intro: "I'm Viata Fredericks",
     avatar_url: me,
-    portfolio: "See my portfolio",
   };
 
   render() {
-    const { avatar_url, intro, portfolio } = this.state;
+    const { avatar_url, intro } = this.state;
     return (
       <div className="intro">
         {" "}
@@ -37,16 +35,16 @@ class intro extends Component {
               borderRadius: "50%",
             }}
           />
-          <h3>{intro}</h3>
-          <p>Junior Software developer</p>
-          <div>
-            <Link
-              to="/myportfolio"
-              className="btn btn-dark btn-sm my-1 animate__lightSpeedInRight"
-            >
-              {portfolio}
-            </Link>
-          </div>
+          <h3
+            style={{
+              color: "white",
+              fontFamily: "myFirstFont",
+              WebkitTextStroke: "2px black",
+            }}
+          >
+            {intro}
+          </h3>
+          <p className="sub-heading">Junior Software developer</p>
         </div>
       </div>
     );
