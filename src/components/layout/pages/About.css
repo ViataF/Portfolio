@@ -16,6 +16,12 @@ h2.about {
   animation: swing;
   animation-duration: 2s;
 }
+h3.skills-heading.center,
+h3.passion {
+  color: #a3a60d;
+  -webkit-text-stroke: 2px black;
+  font-weight: bolder;
+}
 
 .timeline {
   position: relative;
@@ -166,4 +172,5 @@ p.language {
 
 p.content {
   font-weight: bolder;
+  color: #b7b90e;
 }

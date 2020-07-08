@@ -14,7 +14,7 @@ const About = () => {
         <div className="timeline-event">
           <div className="card timeline-content">
             <div className="card-content">
-              <span className="card-title activator grey-text text-darken-4">
+              <span className="card-title activator ">
                 Education<i className="material-icons right">more_vert</i>
               </span>
               <p className="content">
@@ -37,7 +37,7 @@ const About = () => {
         <div className="timeline-event">
           <div className="card timeline-content">
             <div className="card-content">
-              <span className="card-title activator grey-text text-darken-4">
+              <span className="card-title activator">
                 Work experience
                 <i className="material-icons right">more_vert</i>
               </span>
@@ -47,7 +47,7 @@ const About = () => {
               </p>
             </div>
             <div className="card-reveal">
-              <span className="card-title grey-text text-darken-4">
+              <span className="card-title">
                 Sevens Rugby Period: 13-15 November 2019 Role: Usher
                 <i className="material-icons right">close</i>
               </span>
@@ -65,8 +65,8 @@ const About = () => {
         <div className="timeline-event">
           <div className="card timeline-content activator">
             <div className="card-content activator">
-              <span className="card-title activator grey-text text-darken-4">
-                Voluntary work
+              <span className="card-title activator ">
+                Voluntary Work
                 <i className="material-icons right">more_vert</i>
               </span>
               <p className="content">
