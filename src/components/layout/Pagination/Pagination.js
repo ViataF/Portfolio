@@ -11,19 +11,19 @@ const Pagination = () => {
           </a>
         </li>
         <li className="active">
-          <Link to="/Portfolio">1</Link>
+          <a href="/Portfolio">1</a>
         </li>
         <li className="waves-effect">
-          <Link to="/Portfolio/about">2</Link>
+          <a href="/Portfolio/about">2</a>
         </li>
         <li className="waves-effect">
-          <Link to="/Portfolio/myportfolio">3</Link>
+          <a href="/Portfolio/myportfolio">3</a>
         </li>
         <li className="waves-effect">
-          <Link to="/Portfolio/contact">4</Link>
+          <a href="/Portfolio/contact">4</a>
         </li>
         <li className="waves-effect">
-          <Link to="/Portfolio/testimonial">5</Link>
+          <a href="/Portfolio/testimonial">5</a>
         </li>
         <li className="disabled">
           <a href="#!">
