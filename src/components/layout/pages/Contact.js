@@ -19,21 +19,14 @@ class Contact extends React.Component {
           action="https://formspree.io/mgennzln"
           method="POST"
         >
-          <label
-            style={{ color: "black", textAlign: "start", fontWeight: "bolder" }}
-          >
-            Email:
-          </label>
+          <label className="form-labels">Email:</label>
           <input
             type="email"
             name="email"
+            className="email"
             style={{ borderBottom: "white solid" }}
           />
-          <label
-            style={{ color: "black", textAlign: "left", fontWeight: "bolder" }}
-          >
-            Message:
-          </label>
+          <label className="form-labels">Message:</label>
           <input
             type="text"
             name="message"
@@ -42,41 +35,42 @@ class Contact extends React.Component {
           {status === "SUCCESS" ? (
             <p>Thanks!, Please reload to submit another response</p>
           ) : (
-            <button>Submit</button>
+            <button className="btn btn-small #">
+              Submit <i class="material-icons right">send</i>
+            </button>
           )}
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
-        <div className="col s12">
-          <div className="card black">
-            <div className="card-content white-text">
-              <span className="card-title">Contact details</span>
-              <div className="card-action">
-                <a
-                  href="https://github.com/ViataF"
-                  className="waves-effect waves-light btn-large  grey darken-3"
-                >
-                  <i className="fa fa-github" /> Github account
-                </a>
-                <a
-                  href="https://za.linkedin.com/in/viata-fredericks-2580151ab"
-                  className="waves-effect waves-light btn-large  light-blue darken-4 "
-                >
-                  <i className="fa fa-linkedin" /> Linkedin account
-                </a>
-                <a
-                  href="https://gmail.com"
-                  className="waves-effect waves-light btn-large  deep-orange darken-3"
-                >
-                  <i className="fa fa-google" /> Gmail account
-                </a>
-                <a
-                  href="/#"
-                  className="waves-effect waves-light btn-large  red darken-3"
-                >
-                  Phone: 0812379785
-                </a>
-              </div>
-            </div>
+
+        <div
+          className="card transparent
+        "
+        >
+          <div className="card-action">
+            <a
+              href="https://github.com/ViataF"
+              className="waves-effect waves-light btn-large  grey darken-3"
+            >
+              <i className="fa fa-github" /> Github account
+            </a>
+            <a
+              href="https://za.linkedin.com/in/viata-fredericks-2580151ab"
+              className="waves-effect waves-light btn-large  light-blue darken-4 "
+            >
+              <i className="fa fa-linkedin" /> Linkedin account
+            </a>
+            <a
+              href="https://gmail.com"
+              className="waves-effect waves-light btn-large  deep-orange darken-3"
+            >
+              <i className="fa fa-google" /> Gmail account
+            </a>
+            <a
+              href="/#"
+              className="waves-effect waves-light btn-large  red darken-3"
+            >
+              Phone: 0812379785
+            </a>
           </div>
         </div>
       </div>

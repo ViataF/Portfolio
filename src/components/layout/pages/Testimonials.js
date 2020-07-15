@@ -2,16 +2,13 @@ import React from "react";
 import "./Testimonial.css";
 
 const Testimonials = () => {
-  const Style = { fontWeight: "bolder" };
   return (
     <div className="container-testimonials">
       <h2 className="testimonial-heading">Testimonials</h2>
       <div className="col s12 12m">
         <div className="card orange">
           <div className="card-content black-text">
-            <span className="card-title" style={Style}>
-              Mischa (collegue)
-            </span>
+            <span className="card-title testimonial">Mischa (collegue)</span>
             <p className="white-text">
               Viata is a driven, passionate and ambitious individual. She is
               always putting her best foot forward and let's no obstacles stand
@@ -26,9 +23,7 @@ const Testimonials = () => {
       <div className="col s12">
         <div className="card green">
           <div className="card-content black-text">
-            <span className="card-title" style={Style}>
-              Doreen (collegue)
-            </span>
+            <span className="card-title testimonial">Doreen (collegue)</span>
             <p className="white-text">
               Viata Fredericks is a very dedicated individual who has shown
               great work , pay attention to details during her tasks and
@@ -41,7 +36,7 @@ const Testimonials = () => {
       <div className="col s12 m6">
         <div className="card blue">
           <div className="card-content black-text">
-            <span className="card-title" style={Style}>
+            <span className="card-title testimonial">
               Ntombekazi Sibetyu (collegue)
             </span>
             <p className="white-text">
@@ -57,7 +52,7 @@ const Testimonials = () => {
       <div className="col s12 m6">
         <div className="card red">
           <div className="card-content black-text">
-            <span className="card-title" style={Style}>
+            <span className="card-title testimonial">
               Tyron Keet (collegue)
             </span>
             <p className="white-text">
@@ -71,7 +66,7 @@ const Testimonials = () => {
       <div className="col s12 m6">
         <div className="card purple">
           <div className="card-content black-text">
-            <span className="card-title" style={Style}>
+            <span className="card-title testimonial">
               Godwin Dzvapatsva (Head of Curriculum and Learning)
             </span>
             <p className="white-text">

@@ -11,7 +11,10 @@ h2.testimonial-heading {
 .container-testimonials {
   animation: fadeIn;
   animation-duration: 2s;
-  animation-delay: 2s;
   background-color: black;
   padding: 0 50px 20px;
+}
+
+span.card-title.testimonial {
+  font-weight: bolder;
 }

@@ -3,7 +3,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className=" about">
-      <h2 className="about">My Profile</h2>
+      <h2 className="heading">My Profile</h2>
       <p className="profile">
         I am a hardworking and highly dedicated individual. I embrace new
         challenges and love to explore new opportunities. My purpose is to
@@ -82,13 +82,13 @@ const About = () => {
               </span>
               <ul>
                 Duties(Parkhaven):
-                <li> Helped to clean</li>
-                <li> Helped to serve food</li>
-                <li> Spending time with elderly</li>
+                <li> # Helped to clean</li>
+                <li> # Helped to serve food</li>
+                <li> # Spending time with elderly</li>
               </ul>
               <ul>
                 Duties(PlumPets):
-                <li> Taking dogs for walks</li>
+                <li> # Taking dogs for walks</li>
               </ul>
             </div>
           </div>
@@ -119,7 +119,7 @@ const About = () => {
           <div className="skills python">65%</div>
         </div>
       </section>
-      <section style={{ margin: "50px", textAlign: "center" }}>
+      <section className="techPassion">
         <h3 className="passion">Passion Origin</h3>
         <p className="white-text">
           I was exposed to coding at high school via a business called Code 4

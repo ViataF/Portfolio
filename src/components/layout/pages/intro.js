@@ -26,24 +26,8 @@ class intro extends Component {
           ]}
         />
         <div className="container">
-          <img
-            src={avatar_url}
-            alt="Me"
-            className="project_img"
-            style={{
-              width: "300px",
-              borderRadius: "50%",
-            }}
-          />
-          <h3
-            style={{
-              color: "white",
-              fontFamily: "myFirstFont",
-              WebkitTextStroke: "2px black",
-            }}
-          >
-            {intro}
-          </h3>
+          <img src={avatar_url} alt="Me" className="project_img" />
+          <h3 className="name">{intro}</h3>
           <p className="sub-heading">Junior Software developer</p>
         </div>
       </div>

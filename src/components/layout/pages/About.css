@@ -7,13 +7,13 @@
   background-attachment: fixed;
   padding-bottom: 10px;
 }
-h2.about {
+h2.heading {
   color: black;
   text-align: center;
   margin-top: 0;
   padding-top: 20px;
   font-family: cursive;
-  animation: swing;
+  animation: fadeIn;
   animation-duration: 2s;
 }
 h3.skills-heading.center,
@@ -24,6 +24,8 @@ h3.passion {
 }
 
 .timeline {
+  animation: swing;
+  animation-duration: 2s;
   position: relative;
   margin: 0 50px;
 }
@@ -173,4 +175,9 @@ p.language {
 p.content {
   font-weight: bolder;
   color: #b7b90e;
+}
+
+section.techPassion {
+  margin: 50px;
+  text-align: center;
 }

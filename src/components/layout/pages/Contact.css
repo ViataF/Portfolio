@@ -6,7 +6,7 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(https://storage.needpix.com/rsynced_images/background-4232859_1280.png);
+  background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Geometric-Simple-Background-Image.jpg);
 }
 
 h2.contact {
@@ -23,11 +23,12 @@ form {
   border-radius: 3px;
   border: solid white;
 }
+label.form-labels {
+  color: black;
+  text-align: left;
+  font-weight: bolder;
+}
 
 .waves-effect.waves-light.btn-large {
   display: flex;
-}
-
-.card.black {
-  border: solid white;
 }

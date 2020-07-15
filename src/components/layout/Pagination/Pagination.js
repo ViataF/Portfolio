@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Pagination = () => {
   return (
@@ -10,7 +9,7 @@ const Pagination = () => {
             <i className="material-icons">chevron_left</i>
           </a>
         </li>
-        <li className="active">
+        <li className="waves-effect">
           <a href="/Portfolio">1</a>
         </li>
         <li className="waves-effect">
