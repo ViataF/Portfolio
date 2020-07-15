@@ -1,33 +1,33 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Pagination = () => {
   return (
     <div>
       <ul className="pagination center">
         <li className="disabled">
-          <a href="#!">
+          <Link to="#!">
             <i className="material-icons">chevron_left</i>
-          </a>
+          </Link>
         </li>
         <li className="waves-effect">
-          <a href="/Portfolio">1</a>
+          <Link to="/Portfolio">1</Link>
         </li>
         <li className="waves-effect">
-          <a href="/Portfolio/about">2</a>
+          <Link to="/about">2</Link>
         </li>
         <li className="waves-effect">
-          <a href="/Portfolio/myportfolio">3</a>
+          <Link to="/Portfolio/myportfolio">3</Link>
         </li>
         <li className="waves-effect">
-          <a href="/Portfolio/contact">4</a>
+          <Link to="/Portfolio/contact">4</Link>
         </li>
         <li className="waves-effect">
-          <a href="/Portfolio/testimonial">5</a>
+          <Link to="/Portfolio/testimonial">5</Link>
         </li>
         <li className="disabled">
-          <a href="#!">
+          <Link to="#!">
             <i className="material-icons">chevron_right</i>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
