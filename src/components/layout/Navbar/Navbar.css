@@ -1,8 +1,3 @@
-footer.navbar-footer {
-  padding-top: 100%;
-  padding-bottom: 0;
-}
-
 a.waves-effect.waves-light.btn-large {
   padding: 0px 30px;
 }
@@ -14,6 +9,14 @@ ul#mobile-demo.sidenav {
   background-color: #6f37a6;
   border-bottom: 4px #26a69a solid;
 }
-a.brand-loggo {
-  background-color: black;
+
+footer.navbar-footer {
+  padding-top: 100%;
+  padding-bottom: 0;
+}
+
+nav .nav-wrapper a.brand-logo {
+  font-size: 100%;
+  font-weight: bolder;
+  color: rgb(1, 14, 4);
 }

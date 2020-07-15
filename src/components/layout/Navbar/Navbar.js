@@ -7,13 +7,9 @@ const Navbar = () => {
     <header>
       <nav>
         <div className="nav-wrapper ">
-          <a
-            href="/Portfolio"
-            className="brand-logo"
-            style={{ fontSize: "100%", color: "white" }}
-          >
+          <a href="/Portfolio" className="brand-logo">
             <i className="medium material-icons">developer_mode</i>
-            Portfolio - VF
+            Portfolio
           </a>
           <a
             href="/Portfolio"
