@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.41a7ee0b.chunk.css",
-    "main.js": "/Portfolio/static/js/main.ef117e64.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.ef117e64.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.ee297997.chunk.css",
+    "main.js": "/Portfolio/static/js/main.2b9eccf4.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2b9eccf4.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/css/2.36020323.chunk.css": "/Portfolio/static/css/2.36020323.chunk.css",
-    "static/js/2.db9ada35.chunk.js": "/Portfolio/static/js/2.db9ada35.chunk.js",
-    "static/js/2.db9ada35.chunk.js.map": "/Portfolio/static/js/2.db9ada35.chunk.js.map",
+    "static/js/2.d27939e5.chunk.js": "/Portfolio/static/js/2.d27939e5.chunk.js",
+    "static/js/2.d27939e5.chunk.js.map": "/Portfolio/static/js/2.d27939e5.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.1ac2ac91464d77fb277a8f9cfa4bb244.js": "/Portfolio/precache-manifest.1ac2ac91464d77fb277a8f9cfa4bb244.js",
+    "precache-manifest.59b630ecb797682166e1357cba589d54.js": "/Portfolio/precache-manifest.59b630ecb797682166e1357cba589d54.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.36020323.chunk.css.map": "/Portfolio/static/css/2.36020323.chunk.css.map",
-    "static/css/main.41a7ee0b.chunk.css.map": "/Portfolio/static/css/main.41a7ee0b.chunk.css.map",
-    "static/js/2.db9ada35.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.db9ada35.chunk.js.LICENSE.txt",
+    "static/css/main.ee297997.chunk.css.map": "/Portfolio/static/css/main.ee297997.chunk.css.map",
+    "static/js/2.d27939e5.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.d27939e5.chunk.js.LICENSE.txt",
     "static/media/Login-system.PNG": "/Portfolio/static/media/Login-system.0547178c.PNG",
     "static/media/intro.css": "/Portfolio/static/media/Malvie.e3dceca5.otf",
     "static/media/github_finder.jpg": "/Portfolio/static/media/github_finder.e9060109.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/css/2.36020323.chunk.css",
-    "static/js/2.db9ada35.chunk.js",
-    "static/css/main.41a7ee0b.chunk.css",
-    "static/js/main.ef117e64.chunk.js"
+    "static/js/2.d27939e5.chunk.js",
+    "static/css/main.ee297997.chunk.css",
+    "static/js/main.2b9eccf4.chunk.js"
   ]
 }
