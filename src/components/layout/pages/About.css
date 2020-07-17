@@ -38,17 +38,18 @@ h3.passion {
 
 .timeline .timeline-event .timeline-content {
   position: relative;
-  width: calc(50% - 50px);
+  /* width: calc(50% - 50px); */
+  width: 45%;
 }
 
 .timeline .timeline-event::before {
   display: block;
   content: "";
   width: 2px;
-  height: calc(50% - 30px);
+  height: 40%;
   position: absolute;
   background: #d2d2d2;
-  left: calc(50% - 1px);
+  left: 50%;
   top: 0;
 }
 
@@ -56,11 +57,11 @@ h3.passion {
   display: block;
   content: "";
   width: 2px;
-  height: calc(50% - 30px);
+  height: 40%;
   position: absolute;
   background: #d2d2d2;
-  left: calc(50% - 1px);
-  top: calc(50% + 30px);
+  left: 50%;
+  top: 63%;
 }
 
 .timeline .timeline-event:first-child::before {
@@ -72,7 +73,7 @@ h3.passion {
 }
 
 .timeline .timeline-event:nth-child(even) .timeline-content {
-  margin-left: calc(50% + 50px);
+  margin-left: 55%;
 }
 
 .timeline .timeline-event:nth-child(odd) .timeline-content {
@@ -85,8 +86,8 @@ h3.passion {
   width: 40px;
   height: 40px;
   background: #d2d2d2;
-  top: calc(50% - 20px);
-  right: calc(50% - 20px);
+  top: 38%;
+  right: 48%;
   border-radius: 50%;
   text-align: center;
   cursor: default;
@@ -99,7 +100,7 @@ h3.passion {
 
 @media (max-width: 600px) {
   .timeline .timeline-event .timeline-content {
-    width: calc(100% - 70px);
+    width: 70%;
   }
   .timeline .timeline-event::before {
     left: 19px;

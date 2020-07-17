@@ -97,7 +97,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <section className="skillbar  ">
+      <section className="skillbar">
         <h3 className="skills-heading center">Skills</h3>
         <p className="language">HTML</p>
         <div className="container-skillbar">
