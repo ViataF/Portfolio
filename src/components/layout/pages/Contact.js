@@ -48,19 +48,22 @@ class Contact extends React.Component {
         >
           <div className="card-action">
             <a
+              target="__blank"
               href="https://github.com/ViataF"
               className="waves-effect waves-light btn-large  grey darken-3"
             >
               <i className="fa fa-github" /> Github account
             </a>
             <a
+              target="__blank"
               href="https://za.linkedin.com/in/viata-fredericks-2580151ab"
               className="waves-effect waves-light btn-large  light-blue darken-4 "
             >
               <i className="fa fa-linkedin" /> Linkedin account
             </a>
             <a
-              href="https://gmail.com"
+              target="__blank"
+              href="mailto:viataruth@gmail.com"
               className="waves-effect waves-light btn-large  deep-orange darken-3"
             >
               <i className="fa fa-google" /> Gmail account
