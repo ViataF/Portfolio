@@ -14,7 +14,7 @@ const PortfolioItems = ({
           <div className="card-content">
             <span className="card-title activator ">{project_name}</span>
             <p>
-              <a href={project_url} alt="project link">
+              <a target="__blank" href={project_url} alt="project link">
                 Link to project
               </a>
             </p>

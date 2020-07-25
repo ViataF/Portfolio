@@ -8,7 +8,7 @@ import "./Portfolio.css";
 
 class Portfolio extends Component {
   state = {
-    title: "My Portfolio",
+    title: "Viata Fredericks Portfolio",
     portfolios: [
       {
         id: 1,
