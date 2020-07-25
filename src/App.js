@@ -7,7 +7,7 @@ import About from "./components/layout/pages/About";
 import NotFound from "./components/layout/pages/NotFound";
 import Testimonials from "./components/layout/pages/Testimonials";
 import Contact from "./components/layout/pages/Contact";
-import Pagination from "./components/layout/Pagination/Pagination";
+import Footer from "./components/layout/footer/footer";
 
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
@@ -34,7 +34,7 @@ const App = () => {
           <Route exact path="/Portfolio/contact" component={Contact} />
           <Route component={NotFound} />
         </Switch>
-        <Pagination />
+        <Footer />
       </div>
     </Router>
   );
