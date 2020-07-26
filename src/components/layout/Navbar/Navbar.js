@@ -23,16 +23,16 @@ const Navbar = () => {
               <Link to="/Portfolio">Intro</Link>
             </li>
             <li>
-              <Link to="/Portfolio/about">My Profile</Link>
+              <Link to="/about">My Profile</Link>
             </li>
             <li>
-              <Link to="/Portfolio/myportfolio">Portfolio</Link>
+              <Link to="/myportfolio">Portfolio</Link>
             </li>
             <li>
-              <Link to="/Portfolio/contact">Contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/Portfolio/testimonial">Testimonials</Link>
+              <Link to="/testimonial">Testimonials</Link>
             </li>
           </ul>
         </div>
@@ -42,16 +42,16 @@ const Navbar = () => {
           <Link to="/Portfolio">Intro</Link>
         </li>
         <li>
-          <Link to="/Portfolio/about">My Profile</Link>
+          <Link to="/about">My Profile</Link>
         </li>
         <li>
-          <Link to="/Portfolio/myportfolio">Portfolio</Link>
+          <Link to="/myportfolio">Portfolio</Link>
         </li>
         <li>
-          <Link to="/Portfolio/contact">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link to="/Portfolio/testimonial">Testimonials</Link>
+          <Link to="//tetimonial">Testimonials</Link>
         </li>
         <footer className="navbar-footer">
           <a
