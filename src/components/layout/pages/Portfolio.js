@@ -12,7 +12,7 @@ class Portfolio extends Component {
     portfolios: [
       {
         id: 1,
-        project_url: "https://github.com/ViataF/IT-LOGGER",
+        project_url: "https://it-logger-1.netlify.app/",
         project_img: it_logger,
         project_name: "IT Logger",
         project:

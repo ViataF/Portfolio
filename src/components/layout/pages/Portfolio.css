@@ -31,3 +31,10 @@ h2.portfolio-heading {
   width: 35vw;
   height: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  #portfolio.container {
+    width: 50vw;
+    height: 100%;
+  }
+}
