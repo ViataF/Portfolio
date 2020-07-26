@@ -5,128 +5,50 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
+
+/* Main heading */
 h2.heading {
+  border: white 3px solid;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   color: black;
   text-align: center;
-  margin-top: 0;
-  padding-top: 20px;
+  margin: 0 100px;
+  padding: 20px;
   font-family: cursive;
   animation: fadeIn;
   animation-duration: 2s;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: #26a69a solid 2px;
 }
+/* Sub headings */
 h3.skills-heading.center,
 h3.passion {
   color: #a3a60d;
   -webkit-text-stroke: 2px black;
   font-weight: bolder;
 }
-
-.timeline {
-  animation: swing;
-  animation-duration: 2s;
-  position: relative;
-  margin: 0 50px;
-}
-
-.timeline .timeline-event {
-  position: relative;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.timeline .timeline-event .timeline-content {
-  position: relative;
-  /* width: calc(50% - 50px); */
-  width: 45%;
-}
-
-.timeline .timeline-event::before {
-  display: block;
-  content: "";
-  width: 2px;
-  height: 40%;
-  position: absolute;
-  background: #d2d2d2;
-  left: 50%;
-  top: 0;
-}
-
-.timeline .timeline-event::after {
-  display: block;
-  content: "";
-  width: 2px;
-  height: 40%;
-  position: absolute;
-  background: #d2d2d2;
-  left: 50%;
-  top: 63%;
-}
-
-.timeline .timeline-event:first-child::before {
-  display: none;
-}
-
-.timeline .timeline-event:last-child::after {
-  display: none;
-}
-
-.timeline .timeline-event:nth-child(even) .timeline-content {
-  margin-left: 55%;
-}
-
-.timeline .timeline-event:nth-child(odd) .timeline-content {
-  margin-left: 0;
-}
-
-.timeline .timeline-badge {
-  display: block;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: #d2d2d2;
-  top: 38%;
-  right: 48%;
-  border-radius: 50%;
+section.techPassion {
   text-align: center;
-  cursor: default;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px 100px;
+  border: solid white 3px;
+  border-radius: 5px;
+  margin: 40px 100px;
 }
-
-.timeline .timeline-badge i {
-  font-size: 25px;
-  line-height: 40px;
+p.initial-passion {
+  padding-bottom: 20px;
+  border-bottom: solid #26a69a;
 }
-
-@media (max-width: 600px) {
-  .timeline .timeline-event .timeline-content {
-    width: 70%;
-  }
-  .timeline .timeline-event::before {
-    left: 19px;
-  }
-  .timeline .timeline-event::after {
-    left: 19px;
-  }
-  .timeline .timeline-event:nth-child(even) .timeline-content {
-    margin-left: 70px;
-  }
-  .timeline .timeline-event:nth-child(odd) .timeline-content {
-    margin-left: 70px;
-  }
-  .timeline .timeline-badge {
-    left: 0;
-  }
-}
-span.card-title.activator {
-  font-weight: bolder;
-}
-
-/* Make sure that padding behaves as expected */
 
 /* Container for skill bars */
 section.skillbar {
-  margin: 50px;
+  padding: 10px;
 }
 
 .container-skillbar {
@@ -168,9 +90,9 @@ p.profile {
   color: black;
 }
 p.language {
+  text-align: left;
   font-weight: bolder;
-  color: white;
-  -webkit-text-stroke: 0.8px black;
+  color: black;
 }
 
 p.content {
@@ -178,7 +100,313 @@ p.content {
   color: #b7b90e;
 }
 
-section.techPassion {
-  margin: 50px;
+/* Main block on top */
+img.profile_img {
+  width: 30vw;
+  height: 100%;
+  border-radius: 50%;
+  margin: 20px;
+}
+section.details {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: inline-flex;
+  padding: 20px;
+  border-top: #26a69a solid 1px;
+  border-bottom: white solid 3px;
+  border-left: white solid 3px;
+  border-right: white solid 3px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin: 0 20px;
+}
+ul.basic-details {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+ul.basic-details li {
+  padding-bottom: 20px;
+  font-size: 18px;
+  border-bottom: #26a69a ridge;
+}
+ul.basic-details li span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+ul.basic-details li.name {
+  font-size: 45px;
+  font-family: cursive;
   text-align: center;
+}
+
+/* education and work */
+span.card-title.activator {
+  font-weight: bolder;
+}
+
+.card.timeline-content {
+  margin: 30px;
+}
+
+/* media queries */
+
+/* Small screens - phones etc */
+@media only screen and (max-width: 600px) {
+  /* Main block on top */
+
+  img.profile_img {
+    width: 50vw;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section.details {
+    display: block;
+    text-align: center;
+    margin: 0 40px;
+    padding: 10px;
+  }
+
+  ul.basic-details {
+    margin: 0 10px;
+    font: 20px;
+    text-align: left;
+    padding: 0;
+  }
+  /* Main heading */
+  h2.heading {
+    border: white 3px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    text-align: center;
+    margin: 0 40px;
+    padding: 20px;
+    font-family: cursive;
+    animation: fadeIn;
+    animation-duration: 2s;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: #26a69a solid 2px;
+  }
+  ul.basic-details li.name {
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  /* Tech passion section */
+  ul h3.passion {
+    text-align: center;
+  }
+  section.techPassion {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0 20px;
+    border: solid white 3px;
+    border-radius: 10px;
+    margin: 40px;
+  }
+
+  /* Education and that */
+  .card.timeline-content {
+    margin: 40px;
+    border-radius: 5px;
+  }
+}
+
+/* tablet and bigger screen */
+
+@media only screen and (min-width: 600px) {
+  /* Main block on top */
+
+  img.profile_img {
+    width: 50vw;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section.details {
+    display: block;
+    text-align: center;
+    margin: 0 40px;
+    padding: 10px;
+  }
+
+  ul.basic-details {
+    margin: 0 10px;
+    font: 20px;
+    text-align: left;
+    padding: 0;
+  }
+  /* Main heading */
+  h2.heading {
+    border: white 3px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    text-align: center;
+    margin: 0 40px;
+    padding: 20px;
+    font-family: cursive;
+    animation: fadeIn;
+    animation-duration: 2s;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: #26a69a solid 2px;
+  }
+  ul.basic-details li.name {
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  /* Tech passion section */
+  ul h3.passion {
+    text-align: center;
+  }
+  section.techPassion {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0 20px;
+    border: solid white 3px;
+    border-radius: 10px;
+    margin: 40px;
+  }
+
+  /* Education and that */
+  .card.timeline-content {
+    margin: 40px;
+    border-radius: 5px;
+  }
+}
+
+/* Laptop screen */
+@media only screen and (min-width: 768px) {
+  /* Main block on top */
+
+  img.profile_img {
+    width: 50vw;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section.details {
+    display: block;
+    text-align: center;
+    margin: 0 40px;
+    padding: 10px;
+  }
+
+  ul.basic-details {
+    margin: 0 10px;
+    font: 20px;
+    text-align: left;
+    padding: 0;
+  }
+  /* Main heading */
+  h2.heading {
+    border: white 3px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    text-align: center;
+    margin: 0 40px;
+    padding: 20px;
+    font-family: cursive;
+    animation: fadeIn;
+    animation-duration: 2s;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: #26a69a solid 2px;
+  }
+  ul.basic-details li.name {
+    font-size: 35px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  /* Tech passion section */
+  ul h3.passion {
+    text-align: center;
+  }
+  section.techPassion {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0 20px;
+    border: solid white 3px;
+    border-radius: 10px;
+    margin: 40px;
+  }
+
+  /* Education and that */
+  .card.timeline-content {
+    margin: 40px;
+    border-radius: 5px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* Main section on top */
+  /* Main block on top */
+
+  img.profile_img {
+    width: 30vw;
+    height: 100%;
+    border-radius: 50%;
+  }
+  section.details {
+    display: flex;
+    text-align: center;
+    margin: 0 40px;
+    padding: 10px;
+  }
+
+  ul.basic-details {
+    margin: 0 10px;
+    font: 20px;
+    text-align: left;
+    padding: 40px 0;
+  }
+  /* Main heading */
+  h2.heading {
+    border: white 3px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    text-align: center;
+    margin: 0 40px;
+    padding: 20px;
+    font-family: cursive;
+    animation: fadeIn;
+    animation-duration: 2s;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: #26a69a solid 2px;
+  }
+  ul.basic-details li.name {
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  /* Tech passion section */
+  ul h3.passion {
+    text-align: center;
+  }
+  section.techPassion {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px 20px;
+    border: solid white 3px;
+    border-radius: 10px;
+    margin: 40px;
+  }
+  p.initial-passion {
+    font-size: 20px;
+  }
+
+  /* Education and that */
+  .card.timeline-content {
+    margin: 40px;
+    border-radius: 5px;
+  }
 }
