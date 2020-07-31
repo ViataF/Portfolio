@@ -51,7 +51,7 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link to="//tetimonial">Testimonials</Link>
+          <Link to="/testimonial">Testimonials</Link>
         </li>
         <footer className="navbar-footer">
           <a

@@ -21,6 +21,10 @@ const About = () => {
             <span> Location: </span> Wynberg, Cape Town
           </li>
           <li>
+            <span> Nationality: </span>
+            South African
+          </li>
+          <li>
             <span> Passion Board: </span>
             Reading ebooks, Walking, Playing Viola , Baking, Swimming
           </li>

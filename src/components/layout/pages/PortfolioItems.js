@@ -7,7 +7,7 @@ const PortfolioItems = ({
   return (
     <Fragment>
       <div className="row">
-        <div className="card">
+        <div className="card portfolio">
           <div className="card-image waves-effect waves-block waves-light">
             <img className="activator" src={project_img} alt="project_img" />
           </div>

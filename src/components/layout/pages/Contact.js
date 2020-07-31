@@ -68,12 +68,9 @@ class Contact extends React.Component {
             >
               <i className="fa fa-google" /> Gmail account
             </a>
-            <a
-              href="/#"
-              className="waves-effect waves-light btn-large  red darken-3"
-            >
-              Phone: 0812379785
-            </a>
+            <span className="waves-effect waves-light btn-large  red darken-3">
+              tel: 0812379785
+            </span>
           </div>
         </div>
       </div>
