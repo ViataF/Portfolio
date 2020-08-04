@@ -36,39 +36,39 @@ class Contact extends React.Component {
             <p>Thanks!, Please reload to submit another response</p>
           ) : (
             <button className="btn btn-small #">
-              Submit <i class="material-icons right">send</i>
+              Submit <i className="material-icons right">send</i>
             </button>
           )}
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
 
         <div
-          className="card transparent
+          className="card transparent links
         "
         >
-          <div className="card-action">
+          <div className="card-action links">
             <a
               target="__blank"
               href="https://github.com/ViataF"
-              className="waves-effect waves-light btn-large  grey darken-3"
+              className="waves-effect waves-light btn-large link grey darken-3"
             >
               <i className="fa fa-github" /> Github account
             </a>
             <a
               target="__blank"
               href="https://za.linkedin.com/in/viata-fredericks-2580151ab"
-              className="waves-effect waves-light btn-large  light-blue darken-4 "
+              className="waves-effect waves-light btn-large link  light-blue darken-4 "
             >
               <i className="fa fa-linkedin" /> Linkedin account
             </a>
             <a
               target="__blank"
               href="mailto:viataruth@gmail.com"
-              className="waves-effect waves-light btn-large  deep-orange darken-3"
+              className="waves-effect waves-light btn-large  link deep-orange darken-3"
             >
               <i className="fa fa-google" /> Gmail account
             </a>
-            <span className="waves-effect waves-light btn-large  red darken-3">
+            <span className="waves-effect waves-light btn-large link red darken-3">
               tel: 0812379785
             </span>
           </div>

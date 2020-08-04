@@ -58,13 +58,13 @@ section.skillbar {
 }
 
 .skills {
-  text-align: right; /* Right-align text */
   color: white; /* White text color */
   height: 20px;
   border-radius: 20px;
   animation: swing;
   animation-duration: 2s;
   animation-delay: 5s;
+  text-align: center;
 }
 
 .html {

@@ -18,8 +18,8 @@ h2.contact {
 }
 form {
   color: black;
-  margin: 20px;
-  padding: 20px;
+  margin: 30px;
+  padding: 45px;
   border-radius: 3px;
   border: solid white;
 }
@@ -29,6 +29,18 @@ label.form-labels {
   font-weight: bolder;
 }
 
-.waves-effect.waves-light.btn-large {
+.waves-effect.waves-light.btn-large.link {
+  width: 175px;
+}
+
+.card.transparent.links {
   display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-action.links {
+    display: grid;
+    justify-content: center;
+  }
 }
