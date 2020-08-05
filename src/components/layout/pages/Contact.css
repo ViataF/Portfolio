@@ -19,7 +19,7 @@ h2.contact {
 form {
   color: black;
   margin: 40px;
-  padding: 45px;
+  padding: 50px;
   border-radius: 3px;
   border: solid white;
 }
@@ -36,6 +36,7 @@ label.form-labels {
 .card.transparent.links {
   display: flex;
   justify-content: center;
+  padding: 30px;
 }
 
 @media only screen and (max-width: 600px) {
