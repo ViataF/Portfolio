@@ -5,6 +5,8 @@ import github_finder from "./images/github_finder.jpg";
 import it_logger from "./images/it-logger.PNG";
 import contact_keeper from "./images/Login-system.PNG";
 import seekers_and_finders from "./images/seekers&finders.PNG";
+import login_system from "./images/login.PNG";
+import lotto from "./images/lotto.PNG";
 import "./Portfolio.css";
 
 class Portfolio extends Component {
@@ -48,6 +50,24 @@ class Portfolio extends Component {
         project_name: "Seekers & Finders",
         project:
           "React app to create find businesses and shops.This app connects businesses to customers. ",
+      },
+      {
+        id: 5,
+        project_url: "",
+        repo: "https://github.com/ViataF/Login-logout-python",
+        project_img: login_system,
+        project_name: "Python Login & out system",
+        project:
+          "Python project that controls who enters and exits the building via a login, logout and register system",
+      },
+      {
+        id: 6,
+        project_url: "",
+        repo: "https://github.com/ViataF/Lotto_python_project",
+        project_img: lotto,
+        project_name: "Lotto Draw",
+        project:
+          "Python project: Lotto. Adults pick 6 numbers and get a cash reward if they get correct numbers ",
       },
     ],
   };

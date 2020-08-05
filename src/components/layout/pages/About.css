@@ -1,6 +1,6 @@
 /* Set a background color */
 .about {
-  background-image: url(https://cdn.pixabay.com/photo/2020/07/05/16/09/lighthouse-5373552_1280.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,6 +118,8 @@ section.details {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   margin: 0 20px;
+  animation: fadeIn;
+  animation-duration: 2s;
 }
 ul.basic-details {
   padding: 20px;
@@ -146,6 +148,11 @@ span.card-title.activator {
 
 .card.timeline-content {
   margin: 30px;
+}
+
+span.card-title.company {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* media queries */

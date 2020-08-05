@@ -13,16 +13,20 @@ const PortfolioItems = ({
           </div>
           <div className="card-content">
             <span className="card-title activator ">{project_name}</span>
-            <section>
-              <a
-                target="_blank"
-                href={project_url}
-                className="section btn-small "
-                alt="project link"
-              >
-                See project
-              </a>
-            </section>{" "}
+
+            {project_url !== "" && (
+              <section>
+                <a
+                  href={project_url}
+                  className="btn-small"
+                  alt="project link"
+                  target="_blank"
+                >
+                  See Project
+                </a>
+              </section>
+            )}
+
             <section>
               <a href={repo} alt="project link" target="_blank">
                 Github Repo
@@ -35,16 +39,19 @@ const PortfolioItems = ({
               <i className="material-icons right">close</i>
             </span>
             <p>{project}</p>
-            <section>
-              <a
-                href={project_url}
-                className="btn-small"
-                alt="project link"
-                target="_blank"
-              >
-                Project
-              </a>
-            </section>
+            {project_url !== "" && (
+              <section>
+                <a
+                  href={project_url}
+                  className="btn-small"
+                  alt="project link"
+                  target="_blank"
+                >
+                  Project
+                </a>
+              </section>
+            )}
+
             <section>
               <a href={repo} target="_blank" alt="project link">
                 Github Repo
