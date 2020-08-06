@@ -62,7 +62,8 @@ class Portfolio extends Component {
       },
       {
         id: 6,
-        project_url: "",
+        project_url:
+          "https://drive.google.com/drive/folders/1dBSzsm4a2_KW_1nD35kFNUd12MHvJAcu?usp=sharing",
         repo: "https://github.com/ViataF/Lotto_python_project",
         project_img: lotto,
         project_name: "Lotto Draw",
