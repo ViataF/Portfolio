@@ -35,7 +35,7 @@ class Portfolio extends Component {
 
       {
         id: 3,
-        project_url: "https://github.com/ViataF/LoginSystem",
+        project_url: "https://contact-keeper210.herokuapp.com/",
         repo: "https://github.com/ViataF/LoginSystem",
         project_img: contact_keeper,
         project_name: "Contact Keeper",
